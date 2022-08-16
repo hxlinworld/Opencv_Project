@@ -2,7 +2,8 @@ import cv2 as cv
 
 img = cv.imread("test_data/dog.png")
 cv.imshow("img",img)
-# img = img[:,:,(2, 1, 0)]
+# img = img[:,:,(2, 1, 0)] #add
+
 
 # 定义图片显示大小
 top_size,button_size,left_size,right_size = (50,50,50,50)
